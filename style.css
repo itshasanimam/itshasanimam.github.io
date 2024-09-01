@@ -59,3 +59,37 @@
 		.margin-t{
 			margin-top: -150px;
 		}
+
+
+
+
+
+
+
+
+.project-area {
+    background         : url(../img/bg/project-bg.jpg);
+    background-size    : cover;
+    background-position: center;
+}
+
+.project-area-primery {
+    background: transparent;
+}
+.project-area-primery {
+    position: relative;
+    z-index: 2;
+}
+
+.project-area-primery:after {
+    position: absolute;
+    content: "";
+    height: 700px;
+    width: 700px;
+    left: -10%;
+    bottom: 0;
+    background: url(../img/bg/portfolio-bg.svg);
+    z-index: -1;
+    background-position: right;
+    background-size: contain;
+}
